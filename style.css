@@ -1,0 +1,77 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+	text-align: left;
+	flex: row;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+	width: 30%;
+	max-height: auto;
+	object-fit: cover;
+	object-position: center;
+}
+.ul-navbar {
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.li-navbar {
+	background-color: #3498DB;
+	border: 1px solid #3498DB;
+	list-style-type: none;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px 5px #666666;
+}
+.li-navbar:hover {
+	background-color: rgb(13, 97, 69);
+	border-radius: 10px;
+}
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+}
+article {
+	background-color: skyblue;
+	line-height: 2em;
+	flex: 3;
+	margin-left: 20px;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 2px #666666;
+}
+aside {
+	background-color: skyblue;
+	flex: 1;
+	margin-left: 10px;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 2px #666666;
+}
+footer {
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	color: white;
+}
+.fund {
+	margin-top: 10px;
+	margin-bottom: 28px;
+}
+.alamat {
+	margin-left: 50px;
+	margin-bottom: 28px;
+}
+.kontak {
+	margin-top: 50px;
+	margin-bottom: 28px;
+}
